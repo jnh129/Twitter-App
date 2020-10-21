@@ -1,0 +1,41 @@
+html{
+	background-color: black;
+}
+
+div{
+	align-items: center;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+#tweets{
+	color: blue;
+	text-align: center;
+}
+.tweets:hover{
+	color:white;
+	transform: scale(1.1);
+}
+
+image.center {
+    display: block;
+    margin: 0 auto;
+}
+
+#about_text {
+	color: blue;
+	text-align: center;
+}
+
+button {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

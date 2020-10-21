@@ -1,0 +1,18 @@
+extends template.pug
+
+block title
+	title Here are the Tweets!
+
+block styles
+	styles
+		link(href="/css/styler.css", rel="stylesheet", type="text/css")
+
+block content
+	div
+		button#refresh(type='button') Home
+		button#about(type = 'button') About
+	div
+		image#img(src = '/images/load.gif')
+	div#tweets
+	div#about_text
+	script(src = "/js/tryTweets.js")
