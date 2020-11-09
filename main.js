@@ -12,10 +12,10 @@ app.set("views", "./views");
 let Twitter = require("twitter");
 
 let client = new Twitter({
-	consumer_key: "q6iTAeEA7SxGtxM1aOl7be1wZ",
-	consumer_secret: "u2zCUlunXOuKhcWim3fnxQFKCKs2shrVM8CfSyragY6JioCdTQ",
-	access_token_key: "385595015-x9iLZvXjUSsoidsYNqsVeI4W5s1T6bCBlfvk8qyH",
-	access_token_secret: "pesvcnhUjeiBsxDYgt81AMDIKBKiqglQbvOe1oSb0itfB"
+	consumer_key: "consumer key",
+	consumer_secret: "consumer secret",
+	access_token_key: "access token key",
+	access_token_secret: "acces token secret"
 });
 -
 app.get("/", function(request,response){ 
